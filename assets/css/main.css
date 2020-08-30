@@ -2840,6 +2840,12 @@ form[data-steps="4"] .progressbar li {
     width: 25%;
 }
 
+@media (max-width:629px) {
+    form[data-steps="4"] .progressbar li {
+        width: 33.3333%;
+    }
+  } 
+
 .odd .progressbar li {
     color: var(--secondary-t-color);
 }
