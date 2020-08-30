@@ -858,7 +858,7 @@ function populatev4(){
             totalValue.innerHTML = '2.800,00 reais';
 
             // This probably will change
-            aditionalValue.innerHTML = 'Configuração de conexão (VPN)';
+            aditionalValue.innerHTML = 'Configuração de conexão';
         }
         hourValue.innerHTML = '140,00 reais';
         ticketType.innerHTML = 'Problema';
@@ -868,13 +868,14 @@ function populatev4(){
             hours.innerHTML = '4 horas';
             var numberOfDaysToAdd = 1;
             totalValue.innerHTML = '640,00 reais';
+            aditionalValue.innerHTML = 'Sem adição de horas';
         }else {
             hours.innerHTML = '8 horas';
             var numberOfDaysToAdd = 2;
             totalValue.innerHTML = '1.280,00 reais';
 
             // This probably will change
-            aditionalValue.innerHTML = 'Configuração de conexão (VPN)';
+            aditionalValue.innerHTML = 'Configuração de conexão';
         }
        
         hourValue.innerHTML = '160,00 reais';
