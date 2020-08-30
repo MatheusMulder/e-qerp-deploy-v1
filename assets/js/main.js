@@ -850,34 +850,34 @@ function populatev4(){
         if (vpn.value == 'SAP Router') {
             hours.innerHTML = '16 horas';
             var numberOfDaysToAdd = 4;
-            totalValue.innerHTML = '960,00 reais';
+            totalValue.innerHTML = '2.240,00 reais';
             aditionalValue.innerHTML = 'Sem adição de horas';
         }else {
             hours.innerHTML = '20 horas';
             var numberOfDaysToAdd = 5;
-            totalValue.innerHTML = '1.200,00 reais';
+            totalValue.innerHTML = '2.800,00 reais';
 
             // This probably will change
             aditionalValue.innerHTML = 'Configuração de conexão (VPN)';
         }
-        hourValue.innerHTML = '60,00 reais';
+        hourValue.innerHTML = '140,00 reais';
         ticketType.innerHTML = 'Problema';
     
     }else{
         if (vpn.value == 'SAP Router') {
             hours.innerHTML = '4 horas';
             var numberOfDaysToAdd = 1;
-            totalValue.innerHTML = '480,00 reais';
+            totalValue.innerHTML = '640,00 reais';
         }else {
             hours.innerHTML = '8 horas';
             var numberOfDaysToAdd = 2;
-            totalValue.innerHTML = '960,00 reais';
+            totalValue.innerHTML = '1.280,00 reais';
 
             // This probably will change
             aditionalValue.innerHTML = 'Configuração de conexão (VPN)';
         }
        
-        hourValue.innerHTML = '120,00 reais';
+        hourValue.innerHTML = '160,00 reais';
         ticketType.innerHTML = 'Incidente';
     }
 
